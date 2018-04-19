@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <string name="app_name">wofarm</string>
+    <string name="app_name">installagriculture</string>
     <string name="text_ack_msg">Read</string>
     <string name="text_delivered_msg">Delivered</string>
     <string name="back">Back</string>
@@ -280,4 +280,51 @@
     
      
     <string name="login_only_can_input">qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890</string>
+    
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    
+     <!-- 主机确认安装信息注意信息-->
+    <string name="attention_str">注意：安装完毕的主机要求必须有照片存档记录，请通过上方的拍照按钮拍摄主机的安装照片</string>
+   
+    <!-- 时间选择器-->
+     <string name="cancle">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+
+    <string name="select_date">选择日期</string>
+    <string name="current_date">当前日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="current_time">当前时间</string>
+    <string name="photoexplain">说明：请上传9张图片（主机、1号传感器、2号传感器、3号传感器、摄像头、主机到1号传感器之间布线、1号传感器到2号传感器之间布线、2号传感器到3号传感器之间布线、GPS天线照片）。</string>
+
+    <string name="network_anomaly">网络异常</string>
+    <string name="submission_failure">提交信息失败！</string>
+    
+     <!-- 新增农机信息解释，下拉杆长度-->
+    <string name="information1_str">测量下拉杆前后连接点的距离，以螺栓圆心距离为准</string>
+     <!-- 新增农机信息解释，下拉杆机具连接点到犁尖长度-->
+    <string name="information2_str">下拉杆与机具的连接螺栓的圆心，到前排多个犁尖的水平连线的垂直距离。注意：不是直接测量连接螺栓的圆心到犁尖的距离</string>
+     <!-- 新增农机信息解释，下拉杆机具连接点到地面垂直高度-->
+    <string name="information3_str">下拉杆与机具的连接螺栓的圆心，到地面的垂直距离</string>
+     <!-- 新增农机信息解释，机具作业幅宽-->
+    <string name="information4_str">机具两侧犁尖间距离（如果机具有铭牌，标注了作业幅宽，则以铭牌为准）</string>
+    <string name="install0_str">深松</string>
+    <string name="install1_str">水田深翻</string>
+    <string name="install2_str">秸秆还田</string>
+    <string name="install3_str">免耕播种</string>
+    <string name="install4_str">植保作业</string>
+    <string name="install5_str">水田收获</string>
+    <string name="install6_str">插秧</string>
+    <string name="step1_str">当前完成步骤：维护农机信息</string>
+    <string name="step2_str">当前完成步骤：维护终端安装数据</string>
+    <string name="step3_str">当前完成步骤：开始安装</string>
+    <string name="step4_str">当前完成步骤：抓拍调试</string>
+    <string name="step5_str">当前完成步骤：试车</string>
+    <string name="step6_str">当前完成步骤：拍照上传</string>
+    <string name="step7_str">当前完成步骤：收费</string>
 </resources>

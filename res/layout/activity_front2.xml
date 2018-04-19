@@ -6,7 +6,7 @@
 
     <include layout="@layout/main_head" />
 
-    <com.lnpdit.woofarm.utils.advert.ImageCycleView
+    <com.lnpdit.installagriculture.utils.advert.ImageCycleView
         android:id="@+id/ad_view"
         android:layout_width="fill_parent"
         android:layout_height="160dp" />

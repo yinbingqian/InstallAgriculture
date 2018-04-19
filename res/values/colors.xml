@@ -47,6 +47,7 @@
     <color name="black_simple">#333333</color>
     <color name="loginbt_green">#1acfb3</color>
     <color name="dividerline">#eeeeee</color>
+    <color name="dividerline2">#e3e3e3</color>
 
     <!-- progressdialog字体颜色 蓝 -->
     <color name="progress_msg_text_color_blue">#0159A0</color>
@@ -99,10 +100,22 @@
     <color name="text_green">#2cc17b</color>
     <color name="text_red">#ff421d</color>
     <color name="yellow_bg">#e3d749</color>
+    <color name="yellow_bg_a">#faf109</color>
+    <color name="yellow_bg_f">#dfd238</color>
     <color name="yellow_bg_s">#eec43c</color>
     <color name="graysearch_bg">#dfdfdf</color>
     <color name="graysearchs_bg">#fafafa</color>
     <color name="graycar_bg">#f8f6f0</color>
     <color name="blackal_bg">#3c000000</color>
+    
+    <color name="gray_text_top">#363636</color>
+    <color name="green_theme">#35ae71</color>
+    <color name="orange_theme">#ff7e00</color>
+    <color name="grey_text1">#888888</color>
+    <color name="deep_yellow">#FF9900</color>
+    <color name="gray_bg">#f0f0f0</color>
+    <color name="gray_text1">#B0B0B0</color>
+    <color name="gray_text2">#666666</color>
+    
 
 </resources>

@@ -1,40 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/green_login_btn" >
+    android:layout_height="50dp"
+    android:background="@color/green_theme" >
 
-    <ImageView
+    <TextView
         android:id="@+id/topButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
         android:layout_centerVertical="true"
-        android:layout_marginRight="4dp"
-        android:src="@drawable/ic_top_bar_category" />
+        android:layout_marginLeft="10dp"
+        android:text="你好，韩天伟！"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:visibility="gone"/>
 
-    <ImageView
-        android:id="@+id/calButton"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+    <TextView
+        android:id="@+id/username_tv"
+        android:layout_width="112dp"
+        android:layout_height="40dp"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:layout_marginRight="2dp"
-        android:src="@drawable/calbtn" />
+        android:layout_marginRight="4dp"
+        android:text="你好，安装小李！"
+        android:textColor="@color/white"
+        android:gravity="center"/>
 
-    <SearchView
+    <EditText
         android:id="@+id/search_view"
-        android:layout_width="100dp"
-        android:layout_height="35dp"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
         android:layout_centerVertical="true"
-        android:layout_marginRight="6dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="15dp"
-        android:layout_toLeftOf="@+id/calButton"
+        android:layout_marginLeft="15dp"
+        android:layout_toLeftOf="@+id/username_tv"
         android:layout_toRightOf="@+id/topButton"
-        android:background="@drawable/corners_whitebg"
-        android:gravity="bottom|left"
-        android:iconifiedByDefault="false"
-        android:inputType="textFilter"
-        android:queryHint="搜索" >
-    </SearchView>
+        android:background="@drawable/search_bar"
+        android:gravity="center|left"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:hint="搜索" 
+        android:textSize="14dp"
+        android:focusable="false"/>
 
 </RelativeLayout>

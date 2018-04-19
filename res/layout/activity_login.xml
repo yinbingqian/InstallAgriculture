@@ -5,14 +5,14 @@
     android:background="@color/gray_layoutbg"
     android:orientation="vertical" >
 
-    <com.lnpdit.woofarm.widget.CircleImageView
+    <com.lnpdit.installagriculture.widget.CircleImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/img_user_avatar"
         android:layout_width="84dp"
         android:layout_height="84dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="63dp"
-        android:src="@drawable/artboard"
+        android:src="@drawable/wwj_748"
         app:border_color="#FFffffff"
         app:border_width="1dp" />
 
@@ -38,7 +38,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="64dp"
             android:background="@null"
-            android:hint="手机号"
+            android:hint="用户名"
             android:inputType="textNoSuggestions"
             android:singleLine="true"
             android:textColor="@color/gray_text"
@@ -112,92 +112,8 @@
             android:visibility="gone" />
     </LinearLayout>
 
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp" >
+   
 
-        <TextView
-            android:id="@+id/tv_register"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="24dp"
-            android:text="注册账号"
-            android:textColor="@color/gray_textsimple"
-            android:textSize="14sp" />
-
-        <TextView
-            android:id="@+id/tv_forget"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="24dp"
-            android:text="忘记密码?"
-            android:textColor="@color/gray_textsimple"
-            android:textSize="14sp" />
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:visibility="invisible" >
-
-        <TextView
-            android:layout_width="81dp"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center_horizontal"
-            android:text="使用其他账号登录"
-            android:textColor="#929292"
-            android:textSize="10sp" />
-
-        <View
-            android:layout_width="123dp"
-            android:layout_height="1dp"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="8dp"
-            android:background="@color/gray_listline_s" />
-
-        <View
-            android:layout_width="123dp"
-            android:layout_height="1dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="16dp"
-            android:background="@color/gray_listline_s" />
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:visibility="invisible" >
-
-        <Button
-            android:id="@+id/qq_btn"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginRight="50dp"
-            android:layout_toLeftOf="@+id/weixin_btn"
-            android:background="@drawable/qq" />
-
-        <Button
-            android:id="@+id/weixin_btn"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_centerHorizontal="true"
-            android:background="@drawable/wechat" />
-
-        <Button
-            android:id="@+id/weibo_btn"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="50dp"
-            android:layout_toRightOf="@+id/weixin_btn"
-            android:background="@drawable/sina" />
-    </RelativeLayout>
+    
 
 </LinearLayout>

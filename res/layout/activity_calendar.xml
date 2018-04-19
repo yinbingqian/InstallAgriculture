@@ -12,7 +12,7 @@
         android:background="@color/green_login_btn"
         android:orientation="vertical" >
 
-        <com.lnpdit.woofarm.customview.FocusedtrueTV
+        <com.lnpdit.installagriculture.customview.FocusedtrueTV
             android:id="@+id/tv_title"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"

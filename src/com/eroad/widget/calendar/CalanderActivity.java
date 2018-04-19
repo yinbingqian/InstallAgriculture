@@ -21,9 +21,9 @@ import com.eroad.widget.calendar.CollapseCalendarView.OnDateSelect;
 import com.eroad.widget.calendar.CollapseCalendarView.OnTitleClickListener;
 import com.eroad.widget.calendar.manager.CalendarManager;
 import com.eroad.widget.calendar.manager.CalendarManager.OnMonthChangeListener;
-import com.lnpdit.woofarm.R;
-import com.lnpdit.woofarm.page.activity.product.ProductConfirmActivity;
-import com.lnpdit.woofarm.page.activity.product.ProductOrderActivity;
+import com.lnpdit.installagriculture.R;
+import com.lnpdit.installagriculture.page.activity.product.ProductConfirmActivity;
+import com.lnpdit.installagriculture.page.activity.product.ProductOrderActivity;
 
 /**
  * Main

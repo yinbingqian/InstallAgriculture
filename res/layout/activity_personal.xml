@@ -13,7 +13,7 @@
         android:background="@color/green_login_btn"
         android:clickable="true" >
 
-        <com.lnpdit.woofarm.widget.CircleImageView
+        <com.lnpdit.installagriculture.widget.CircleImageView
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/img_user_avatar"
             android:layout_width="78dp"

@@ -1,6 +1,6 @@
 package com.eroad.widget.calendar.widget;
 
-import com.lnpdit.woofarm.R;
+import com.lnpdit.installagriculture.R;
 
 import android.content.Context;
 import android.util.AttributeSet;
